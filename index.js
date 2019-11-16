@@ -9,7 +9,7 @@ $(document).ready(function () {
             if (value >= 1 && value <= 50) {
                 generateDogImages(value);
             } else {
-                $('form').append('Your input must be between 1 and 50.');
+                $('form').html('Your input must be between 1 and 50.');
             };
         });
     };
